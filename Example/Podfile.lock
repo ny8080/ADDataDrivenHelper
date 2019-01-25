@@ -1,0 +1,104 @@
+PODS:
+  - Masonry (1.1.0)
+  - TDFBaseInfoKit (0.2.4)
+  - TDFBatchOperation (2.0.0):
+    - TDFCoreProtocol (~> 1.0)
+  - TDFCategories (2.0.19):
+    - TDFCategories/NSBundle (= 2.0.19)
+    - TDFCategories/NSData (= 2.0.19)
+    - TDFCategories/NSDictionay (= 2.0.19)
+    - TDFCategories/NSMutableArray (= 2.0.19)
+    - TDFCategories/NSString (= 2.0.19)
+    - TDFCategories/UIButton (= 2.0.19)
+    - TDFCategories/UICollectionReusableView (= 2.0.19)
+    - TDFCategories/UICollectionViewCell (= 2.0.19)
+    - TDFCategories/UIColor (= 2.0.19)
+    - TDFCategories/UIImage (= 2.0.19)
+    - TDFCategories/UILabel (= 2.0.19)
+    - TDFCategories/UIScrollView (= 2.0.19)
+    - TDFCategories/UITableViewCell (= 2.0.19)
+    - TDFCategories/UITableViewHeaderFooterView (= 2.0.19)
+    - TDFCategories/UIView (= 2.0.19)
+    - TDFCategories/UIViewController (= 2.0.19)
+  - TDFCategories/NSBundle (2.0.19)
+  - TDFCategories/NSData (2.0.19)
+  - TDFCategories/NSDictionay (2.0.19)
+  - TDFCategories/NSMutableArray (2.0.19)
+  - TDFCategories/NSString (2.0.19):
+    - TDFDataCenterKit
+  - TDFCategories/UIButton (2.0.19)
+  - TDFCategories/UICollectionReusableView (2.0.19)
+  - TDFCategories/UICollectionViewCell (2.0.19)
+  - TDFCategories/UIColor (2.0.19)
+  - TDFCategories/UIImage (2.0.19)
+  - TDFCategories/UILabel (2.0.19)
+  - TDFCategories/UIScrollView (2.0.19)
+  - TDFCategories/UITableViewCell (2.0.19)
+  - TDFCategories/UITableViewHeaderFooterView (2.0.19)
+  - TDFCategories/UIView (2.0.19)
+  - TDFCategories/UIViewController (2.0.19)
+  - TDFCoreProtocol (1.2.8)
+  - TDFDataCenterKit (0.2.5)
+  - TDFDataDrivenBaseItems (0.1.1):
+    - Masonry
+    - TDFCategories
+    - TDFDataDrivenKit
+    - TDFInternationalKit
+    - TDFStyleKit
+    - YYText
+  - TDFDataDrivenHelper (0.1.0):
+    - Masonry
+    - TDFBatchOperation
+    - TDFCategories
+    - TDFCategories/UIColor
+    - TDFDataDrivenBaseItems
+    - TDFDataDrivenKit
+  - TDFDataDrivenKit (0.1.3):
+    - Masonry
+    - TDFBaseInfoKit
+    - TDFCoreProtocol
+  - TDFInternationalKit (0.1.1):
+    - TDFDataCenterKit
+  - TDFStyleKit (0.2.0)
+  - YYText (1.0.7.1)
+
+DEPENDENCIES:
+  - TDFDataDrivenBaseItems (from `../../TDFDataDrivenBaseItems`)
+  - TDFDataDrivenHelper (from `../`)
+
+SPEC REPOS:
+  "git@git.2dfire-inc.com:ios/cocoapods-spec.git":
+    - Masonry
+    - TDFBaseInfoKit
+    - TDFBatchOperation
+    - TDFCategories
+    - TDFCoreProtocol
+    - TDFDataCenterKit
+    - TDFDataDrivenKit
+    - TDFInternationalKit
+    - TDFStyleKit
+    - YYText
+
+EXTERNAL SOURCES:
+  TDFDataDrivenBaseItems:
+    :path: "../../TDFDataDrivenBaseItems"
+  TDFDataDrivenHelper:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Masonry: 6a45eb6ec323ea1660ce48cb3381117c716560f5
+  TDFBaseInfoKit: 099ce717a89d9033a3cab9e4da90749956aeb447
+  TDFBatchOperation: 04ec96cb9bf860227e4afec062c69ffe2c28eb35
+  TDFCategories: 5ec87ad7080ff2dec956f860809c5e31a307d40e
+  TDFCoreProtocol: 952b3dacff47f768663d6bcbe2454fd88a551b0c
+  TDFDataCenterKit: 14af110a1c826196099b9f91e550fb4263ad9177
+  TDFDataDrivenBaseItems: d152a7e9bfe4e534568e2aafdeeb518633e55ebd
+  TDFDataDrivenHelper: 43a827f9683ce9b10d788bce87f75ca2094ee150
+  TDFDataDrivenKit: 928b89c4370bb5bc28bf68463de6331b40eaede5
+  TDFInternationalKit: 6c1269f23639efd9db6543ee9bb3d267f728da5f
+  TDFStyleKit: be5429ac923bfbc47e6bd381d582610af2428a79
+  YYText: d4c12072e7a98c9d1ae60904adf53f9e4b59e625
+
+PODFILE CHECKSUM: 101102851c02a80b9299ce3198ba02b271a8f7bd
+
+COCOAPODS: 1.5.3
